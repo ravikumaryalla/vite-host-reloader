@@ -1,5 +1,5 @@
 {
-  "name": "vite-host-reloader",
+  "name": "vite-mfe-host-reloader",
   "version": "1.0.0",
   "description": "Hot-reload bridge for Vite Module Federation hosts and remotes",
   "type": "module",

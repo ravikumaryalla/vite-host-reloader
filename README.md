@@ -1,8 +1,8 @@
-# vite-host-reloader
+# vite-mfe-host-reloader
 
 🔄 **Reload the host application automatically when any micro-frontend remote changes during development.**
 
-`vite-host-reloader` is a Vite plugin built for **micro-frontend architectures** where multiple Vite dev servers (host + remotes) run in parallel.
+`vite-mfe-host-reloader` is a Vite plugin built for **micro-frontend architectures** where multiple Vite dev servers (host + remotes) run in parallel.
 
 When a remote (submodule) changes, the plugin notifies the host via **WebSockets**, triggering a **full reload of the host app** — no more manual browser refreshes.
 
@@ -22,7 +22,7 @@ This results in:
 - broken development flow
 - confusion when changes don’t reflect immediately
 
-`vite-host-reloader` solves this by creating a lightweight **WebSocket bridge** between remotes and the host.
+`vite-mfe-host-reloader` solves this by creating a lightweight **WebSocket bridge** between remotes and the host.
 
 ---
 
@@ -41,9 +41,9 @@ This results in:
 ## Installation
 
 ```bash
-npm install vite-host-reloader --save-dev
+npm install vite-mfe-host-reloader --save-dev
 # or
-pnpm add vite-host-reloader -D
+pnpm add vite-mfe-host-reloader -D
 # or
-yarn add vite-host-reloader -D
+yarn add vite-mfe-host-reloader -D
 ```
