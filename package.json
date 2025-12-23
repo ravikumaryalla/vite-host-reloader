@@ -1,0 +1,25 @@
+{
+  "name": "vite-host-reloader",
+  "version": "1.0.0",
+  "description": "Hot-reload bridge for Vite Module Federation hosts and remotes",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "module-federation",
+    "hmr",
+    "microfrontend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "peerDependencies": {
+    "vite": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0"
+  }
+}
